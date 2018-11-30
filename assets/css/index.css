@@ -91,6 +91,35 @@
     }
 
 
+    .main-text h1 {
+        font-size: 36px;
+    }
+
+    .__imgbg {
+        height: 100%;
+    }
+
+    .__hackimg div {
+        top: 116px;
+    }
+
+    .__welin {
+        margin-top: 10px;
+    }
+
+    .__imghov {
+        width: 100%;
+    }
+
+    .__welbg {
+        padding: 100px 0;
+    }
+
+    .__leadteams {
+        margin-left: 0;
+    }
+
+
 }
 
 
@@ -102,6 +131,10 @@
 @media screen and (max-width: 992px){
     .__findmore {
         padding: 25px 0;
+    }
+
+    .__leadteam {
+        margin-left: 0px;
     }
 }
 
@@ -148,7 +181,62 @@
         padding: 15px 15px 3px;
     }
 
+    .__navlogo {
+        margin-left: 1% !important;
+    }
 
+    .main-text h1 {
+        font-size: 27px;
+    }
+
+    .__welbg {
+        padding: 50px 0;
+    }
+
+    .__hackimg div {
+        top: 79px;
+    }
+
+    .__welin {
+        margin-top: 4%;
+    }
+
+    .__welin p:nth-child(1) {
+        font-size: 20px;
+    }
+
+    .__welin p:nth-child(2) {
+        font-size: 12px;
+    }
+
+    .__imgbg {
+        height: 100%;
+    }
+
+    .__who {
+        margin-top: 0;
+    }
+
+    .__wwwbor {
+        padding: 30px 22px;
+    }
+
+    .__wwwborm {
+        padding: 30px 22px;
+    }
+
+    .__trophycard {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .__leadteam {
+        margin-left: 0;
+    }
+
+    .__leadteams {
+        margin-left: 0;
+    }
 
 	
 
@@ -176,6 +264,76 @@
     .__avafindp1 {
         border-left: none;
         margin-top: 5%;
+    }
+
+    .__navbar-b {
+        background: #00010e;
+        position: unset;
+        top: 0;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .__navlogo {
+        display: none;
+    }
+
+    .__navlogom{
+      display: inline-block;
+    }
+
+     .main-text {
+        top: 6%;
+        position: unset;
+    color: #FFF;
+    background: #00010e;
+    width: 100%;
+    }
+
+    .main-text h1 {
+        font-size: 41px;
+    }
+
+    .__hackimg img {
+        width: 100%;
+    }
+
+    .__imgbg {
+        height: 100%;
+    }
+
+    .__welbg {
+        padding: 0px 50px;
+    }
+
+    .__wwwborm {
+        border-right: none;
+        border-left: none;
+        padding: 30px 55px;
+    }
+
+    .__leadteam {
+         margin-left: -203px;
+    }
+
+    .__teamv {
+        margin-top: 5%;
+    }
+
+    .__teamc {
+        margin-top: 10%;
+    }
+
+    .__leadteams {
+        margin-left: -194px;
+    }
+
+    .__hackleadimg {
+        margin-top: 5px;
+    }
+
+    .__teams {
+        margin-left: -47%;
     }
 
     
@@ -243,6 +401,116 @@
 
     .__ffree {
         font-size: 25px;
+    }
+
+    .__img {
+        height: 73vh;
+    }
+
+    .__navbar-b {
+        background: #00010e;
+        position: unset;
+        top: 0;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .__navlogo {
+        display: none;
+    }
+
+    .__navlogom{
+      display: inline-block;
+    }
+
+    .__carousel-indicators {
+        text-align: center;
+    }
+
+    .__carousel-indicators p {
+        text-align: center;
+    }
+
+    .main-text {
+        top: 6%;
+        position: unset;
+    color: #FFF;
+    background: #00010e;
+    width: 100%;
+    padding-top: 20px;
+    }
+
+    .main-text h1 {
+    font-size: 27px;
+    }
+
+    .__lrarrow {
+        width: 20px;
+    }
+
+    .__welin {
+        margin-top: 10%;
+    }
+
+    .__welbg {
+    padding: 0;
+    }
+
+    .__hackimg div {
+    top: 91px;
+    }
+
+    .__imgbg {
+    height: 100%;
+    }
+
+    .__wwwbor {
+    padding: 20px 0;
+    }
+
+    .__who {
+        margin-top: 10px;
+    }
+
+    .__wwwborm {
+    border-right: none;
+    border-left: none;
+    padding: 20px 0;
+    }
+
+    .__imghov {
+    width: 100%;
+    }
+
+    .__trophycard {
+    width: 100%;
+    }
+
+    .__leadteam {
+        margin-left: 0;
+    }
+
+    .__teamv {
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .__teamc {
+       font-size: 13px;
+    margin-top: 24px;
+    }
+
+    .__leadteams {
+        margin-left: 0;
+    }
+
+
+    .__teams {
+        margin-left: 0;
+    }
+
+    .__autent {
+        padding: 50px 10px;
     }
 
 }

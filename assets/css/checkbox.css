@@ -4,11 +4,16 @@ input[type="checkbox"] {
 label {
   cursor: pointer;
   /*font-family: PTSans-Caption;*/
-  font-size: 16px;
-  color: #4a4a4a ;
+  font-size: 13px;
+  color: #cecece ;
   font-weight: normal;
   margin-bottom: 0;
 }
+
+label span{
+  color: #e1882e ;
+}
+
 input[type="checkbox"] + label:before {
   border: 0.6px solid #d8dde6;
   content: "\00a0";
@@ -27,7 +32,7 @@ input[type="checkbox"] + label:before {
 input[type="checkbox"]:checked + label:before {
   /*padding-top: 2px;*/
   padding-top: 0px;
-  background: #4bca81;
+  background: #e1882e;
   color: white;
   /*font-size: 14px;*/
   font-size: 12px;
@@ -35,7 +40,7 @@ input[type="checkbox"]:checked + label:before {
   /* padding-bottom: 1.5px; */
   text-align: center;
   /*border-color: white;*/
-  border-color: #4bca81;
+  border-color: #e1882e;
   border-radius: 2.4px;
 }
 
