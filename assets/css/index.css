@@ -25,6 +25,12 @@
     .__findmore {
         padding: 32px 0;
     }
+
+    /*Saucecode Alpha css*/
+    .__alphabg {
+        height: 125vh;
+    }
+    /*Saucecode Alpha css end*/
 }
 
 
@@ -45,6 +51,9 @@
     .__findimg p {
         padding: 112px 0 0;
     }
+
+    /*Saucecode Alpha css*/
+    /*Saucecode Alpha css end*/
   
 }
 
@@ -63,6 +72,9 @@
     .__findimg {
     height: 38vh;
     }
+
+    /*Saucecode Alpha css*/
+    /*Saucecode Alpha css end*/
 
 }
 
@@ -119,6 +131,30 @@
         margin-left: 0;
     }
 
+    /*Saucecode Alpha css*/
+    .__alphainputbtn {
+        margin-left: 417px;
+    }
+
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+        padding: 9px 40px;
+    }
+
+    .nav-tabs>li>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+        padding: 9px 40px;
+    }
+
+    .__map {
+        width: 100%;
+    }
+
+    .__saucereg {
+        padding: 25px 60px;
+    }
+
+
+    /*Saucecode Alpha css end*/
+
 
 }
 
@@ -136,6 +172,9 @@
     .__leadteam {
         margin-left: 0px;
     }
+
+    /*Saucecode Alpha css*/
+    /*Saucecode Alpha css end*/
 }
 
 
@@ -238,6 +277,34 @@
         margin-left: 0;
     }
 
+    /*Saucecode Alpha css*/
+
+    .__alphabg {
+         height: 82vh;
+    }
+
+    .__alphahead p:nth-child(1) {
+        font-size: 30px;
+    }
+    .__alphamed {
+        width: 100%;
+        margin-top: 0;
+        position: unset;
+    }
+
+    .__alphainputbtn {
+        margin-left: 312px;
+    }
+
+    .__map {
+        width: 100%;
+    }
+
+    .__saucereg {
+        padding: 25px 30px;
+    }
+    /*Saucecode Alpha css end*/
+
 	
 
 }
@@ -335,6 +402,29 @@
     .__teams {
         margin-left: -47%;
     }
+
+    /*Saucecode Alpha css*/
+
+    .__alphabg {
+        height: 82vh;
+    }
+
+    .__alphahead {
+        margin-top: 10%;
+    }
+
+    .__alpharow {
+        margin-top: 0;
+    }
+
+    .__alphainputbtn {
+        margin-left: 700px;
+    }
+
+    .navbar-toggle {
+        background-color: #272727;
+    }
+    /*Saucecode Alpha css end*/
 
     
   
@@ -512,6 +602,61 @@
     .__autent {
         padding: 50px 10px;
     }
+
+
+    /*Saucecode Alpha css*/
+    .__alphabg {
+        height: 100%;
+    }
+
+    .__alphamed {
+        width: 100%;
+        position: unset;
+        margin-top: 11px;
+    }
+
+    .__alphainputbtn {
+        bottom: 2px;
+        margin-left: 252px;
+    }
+    .__alphahead {
+        margin-top: 0%;
+    }
+
+    .__alphahead p:nth-child(1) {
+        font-size: 26px;
+    }
+
+    .__alphamis p:nth-child(2) {
+        font-size: 25px;
+    }
+
+    .__alphamedimp1 {
+        border-right: none;
+    }
+
+    .__alphahow p:nth-child(2) {
+        font-size: 25px;
+    }
+
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+        padding: 9px 15px;
+    }
+
+    .nav-tabs>li>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+        padding: 9px 14px;
+    }
+
+    .__map {
+        width: 100%;
+        height: 100%;
+    }
+
+    .__saucereg {
+        padding: 16px 19px;
+    }
+
+    /*Saucecode Alpha css end*/
 
 }
 
