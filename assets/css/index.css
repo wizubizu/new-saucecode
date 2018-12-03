@@ -152,6 +152,10 @@
         padding: 25px 60px;
     }
 
+    .__sauimg {
+       margin-left: 0;
+    }
+
 
     /*Saucecode Alpha css end*/
 
@@ -302,6 +306,14 @@
 
     .__saucereg {
         padding: 25px 30px;
+    }
+
+    .nav-tabs>li>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+        padding: 9px 60px;
+    }
+
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+        padding: 9px 60px;
     }
     /*Saucecode Alpha css end*/
 
@@ -654,6 +666,11 @@
 
     .__saucereg {
         padding: 16px 19px;
+    }
+
+    .__sauimg {
+        width: 100%;
+        margin-left: 0;
     }
 
     /*Saucecode Alpha css end*/

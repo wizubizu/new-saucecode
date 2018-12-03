@@ -1900,7 +1900,7 @@ svg path {
 .__alphamis p:nth-child(3) {
    font-size: 13px;
   color: #4c4c4c;
-  font-family: MSGOTHIC;
+  /*font-family: MSGOTHIC;*/
 }
 
 .__alphamed{
@@ -1983,7 +1983,7 @@ svg path {
       font-size: 13px;
     color: #4c4c4c;
         margin-top: 5%;
-    font-family: MSGOTHIC;
+    /*font-family: MSGOTHIC;*/
 }
 
 .__alphatabp{
@@ -2140,12 +2140,17 @@ svg path {
 }
 
 .tab-content>.active {
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .__alphadwnbg{
   background: #fcfcfc;
   padding: 40px 0;
+}
+
+.__sauimg{
+      width: 442px;
+    margin-left: 60px;
 }
 /*sample end*/
 
@@ -2167,7 +2172,7 @@ svg path {
     font-size: 15px;
     color: #4c4c4c;
     margin-top: 3%;
-    font-family: MSGOTHIC;
+    /*font-family: MSGOTHIC;*/
 }
 
 .__alphainput{
