@@ -2040,6 +2040,21 @@ svg path {
     margin-right: 0px;
 }
 
+.nav-tabs>li>.__geth, .nav-tabs>li.active>.__geth:focus, .nav-tabs>li.active>.__geth:hover {
+    position: relative;
+    /*width: 80px;*/
+    /*height: 45px;*/
+    padding: 9px 56px;
+    /*background: #FFF;*/
+    /*border: 1px solid #000;*/
+    border-color: #eee #eee #ddd !important;
+    border-radius: 0;
+    text-align: center;
+    /*background-color: var(--bubble-color);*/
+    background-color: #ffffff;
+    margin-right: 0px;
+}
+
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     position: relative;
     /*width: 80px;*/
@@ -2054,7 +2069,7 @@ svg path {
     margin-right: 0px;
 }
 
-.nav-tabs>li.active>.__liftdir, .nav-tabs>li.active>.__liftdir:focus, .nav-tabs>li.active>.__liftdir:hover {
+.nav-tabs>li.active>.__geth, .nav-tabs>li.active>.__geth:focus, .nav-tabs>li.active>.__geth:hover {
     position: relative;
     /*width: 80px;*/
     /*height: 45px;*/
@@ -2096,6 +2111,21 @@ svg path {
     z-index: 1;
 }
 
+
+.nav-tabs>li>.__geth:after {
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: -11px;
+    border-style: solid;
+    border-width: 9px 0px 9px 12px;
+    /*border-color: transparent var(--bubble-color);*/
+    border-color: transparent;
+    display: block;
+    width: 5px;
+    z-index: 1;
+}
+
 .nav-tabs>li.active>a:after {
     content: "";
     position: absolute;
@@ -2110,7 +2140,7 @@ svg path {
     z-index: 1;
 }
 
-.nav-tabs>li.active>.__liftdir:after {
+.nav-tabs>li.active>.__geth:after {
     content: "";
     position: absolute;
     top: 11px;
@@ -2118,7 +2148,7 @@ svg path {
     border-style: solid;
     border-width: 10px 0px 10px 12px;
     /*border-color: transparent var(--bubble-color);*/
-    border-color: transparent #e1882e;
+    border-color: transparent;
     display: block;
     width: 5px;
     z-index: 1;
@@ -2152,6 +2182,19 @@ svg path {
     z-index: 0;
 }
 
+.nav-tabs>li>.__geth:before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: -12px;
+    border-style: solid;
+    border-width: 9px 0px 9px 12px;
+    border-color: transparent;
+    display: block;
+    width: 0px;
+    z-index: 0;
+}
+
 .nav-tabs>li.active>a:before {
     content: "";
     position: absolute;
@@ -2165,14 +2208,14 @@ svg path {
     z-index: 0;
 }
 
-.nav-tabs>li.active>.__liftdir:before {
+.nav-tabs>li.active>.__geth:before {
     content: "";
     position: absolute;
     top: 12px;
     right: -11px;
     border-style: solid;
     border-width: 9px 0px 9px 12px;
-    border-color: transparent #000;
+    border-color: transparent;
     display: block;
     width: 0px;
     z-index: 0;
