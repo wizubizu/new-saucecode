@@ -1851,10 +1851,11 @@ svg path {
 .__alphahead p:nth-child(2){ 
   font-size: 15px;
   color: #4c4c4c;
+  margin-top: 1%;
 }
 
-.__alphahead p:nth-child(3) {
-    margin-top: 5%;
+.__alphahead p:nth-child(3){
+    margin-top: 3%;
 }
 
 .__alphahead a {
@@ -1964,6 +1965,7 @@ svg path {
 
 .__alphahow{
   text-align: center;
+  margin-top: 5%;
 }
 
 .__alphahow hr{
@@ -2027,7 +2029,7 @@ svg path {
     position: relative;
     /*width: 80px;*/
     /*height: 45px;*/
-    padding: 9px 58px;
+    padding: 9px 56px;
     /*background: #FFF;*/
     /*border: 1px solid #000;*/
     border-color: #eee #eee #ddd !important;
@@ -2039,6 +2041,20 @@ svg path {
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    position: relative;
+    /*width: 80px;*/
+    /*height: 45px;*/
+    padding: 9px 56px;
+    color: #FFF;
+    border: 1px solid transparent;
+    border-radius: 0;
+    text-align: center;
+    /*background-color: var(--bubble-color);*/
+    background-color: #e1882e !important;
+    margin-right: 0px;
+}
+
+.nav-tabs>li.active>.__liftdir, .nav-tabs>li.active>.__liftdir:focus, .nav-tabs>li.active>.__liftdir:hover {
     position: relative;
     /*width: 80px;*/
     /*height: 45px;*/
@@ -2094,6 +2110,20 @@ svg path {
     z-index: 1;
 }
 
+.nav-tabs>li.active>.__liftdir:after {
+    content: "";
+    position: absolute;
+    top: 11px;
+    right: -11px;
+    border-style: solid;
+    border-width: 10px 0px 10px 12px;
+    /*border-color: transparent var(--bubble-color);*/
+    border-color: transparent #e1882e;
+    display: block;
+    width: 5px;
+    z-index: 1;
+}
+
 
 
 /*.bubble:before {
@@ -2123,6 +2153,19 @@ svg path {
 }
 
 .nav-tabs>li.active>a:before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: -11px;
+    border-style: solid;
+    border-width: 9px 0px 9px 12px;
+    border-color: transparent #000;
+    display: block;
+    width: 0px;
+    z-index: 0;
+}
+
+.nav-tabs>li.active>.__liftdir:before {
     content: "";
     position: absolute;
     top: 12px;
@@ -2265,7 +2308,7 @@ svg path {
 /*footer section*/
 .__foter{
   background-color: #0d0e1b;
-  padding: 80px 0;
+  padding: 80px 0 9px;
 }
 
 .__fh{
