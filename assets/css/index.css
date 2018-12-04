@@ -656,7 +656,7 @@
     }
 
     .nav-tabs>li>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-        padding: 9px 14px;
+        padding: 9px 11px;
     }
 
     .__map {
