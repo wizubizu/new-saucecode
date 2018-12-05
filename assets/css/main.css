@@ -1864,7 +1864,23 @@ svg path {
     background-color: #e1882e;
     padding: 8px 20px;
     border-radius: 4px;
+    transition: all 0.4s ease-in;
 }
+
+.__alphahead a:hover {
+    -webkit-box-shadow: 5px 5px 0 0 #0d0e1b;
+    box-shadow: 5px 5px 0 0 #0d0e1b;
+}
+
+/*.__me{
+  background: #2FE7B1;
+    color: #1B2733;
+}
+
+.__me:hover {
+    -webkit-box-shadow: 5px 5px 0 0 #2F5BE7;
+    box-shadow: 5px 5px 0 0 #2F5BE7;
+}*/
 
 .__alphahead span{ 
   color: #ea9540;
@@ -2341,6 +2357,9 @@ svg path {
   color: #ffffff !important;
       margin-top: 20px;
 }
+
+
+
 
 
 /*Saucecode Alpha css end*/
