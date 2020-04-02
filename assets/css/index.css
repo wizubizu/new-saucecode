@@ -1,12 +1,3 @@
-/*=================================================================
-  @media screen 1199px
-==================================================================*/
-
-
-@media screen and (max-width: 1199px){
-    
-    
-}
 
 /*=================================================================
   @media screen 1440px
@@ -14,25 +5,11 @@
 
 
 @media screen and (min-width: 1440px){
-    .__gigs {
-        margin-top: 8%;
-    }
+   
+  
 
-    .__findimg p {
-        padding: 127px 0 0;
-    }
 
-    .__findmore {
-        padding: 32px 0;
-    }
-
-    /*Saucecode Alpha css*/
-    .__alphabg {
-        height: 125vh;
-    }
-    /*Saucecode Alpha css end*/
 }
-
 
 /*=================================================================
   @media screen 1199px
@@ -40,21 +17,9 @@
 
 
 @media screen and (max-width: 1199px){
-   .__gigs {
-        margin-top: 2%;
-    }
-
-    .__findimg p {
-        padding: 112px 0 0;
-    }
-
-    .__findimg p {
-        padding: 112px 0 0;
-    }
-
-    /*Saucecode Alpha css*/
-    /*Saucecode Alpha css end*/
+   
   
+
 }
 
 
@@ -65,16 +30,42 @@
 
 @media screen and (max-width: 1220px){
   
-    .__gigs {
-        margin-top: 7%;
-    }
+  .__landbg{
+    height: 100%;
+    padding-bottom: 15px;
+  }
 
-    .__findimg {
-    height: 38vh;
-    }
+  .__div {
+    height: 309px;
+    top: 40px;
+  }
 
-    /*Saucecode Alpha css*/
-    /*Saucecode Alpha css end*/
+  .__spep {
+    margin-top: 35px;
+ }
+
+ .__optcard {
+    height: 66vh;
+  }
+
+  .__numhack1 {
+    font-size: 25px;
+  }
+
+  .cust-arrow, .cust-arrow1 {
+    top: 84%;
+  }
+
+  .cust-arrow {
+    left: 7%;
+  }
+
+  .cust-arrow1 {
+    right: 7%;
+  }
+
+
+
 
 }
 
@@ -86,79 +77,102 @@
 
 @media screen and (max-width: 1024px){
 
-    .__gigs {
-        margin-top: 2%;
-    }
+  .__logoimg {
+    margin: 14px 7px 3px;
+  }
 
-    .__findimg {
-        height: 30vh;
-    }
+  .__sacaption {
+    font-size: 48px;
+  }
 
-    .__findimg p {
-        padding: 110px 0 0;
-    }
+  .__landbg{
+    height: 100%;
+    padding-bottom: 15px;
+  }
 
-    .__findmore {
-        padding: 26px 0;
-    }
+  .__countp {
+    font-size: 24px;
+  }
 
+  .list-container{
+    padding-left: 0px;
+  }
 
-    .main-text h1 {
-        font-size: 36px;
-    }
+  .__abs {
+    font-size: 20px;
+  }
 
-    .__imgbg {
-        height: 100%;
-    }
+  .__div {
+    height: 309px;
+    top: 47px;
+  }
 
-    .__hackimg div {
-        top: 116px;
-    }
+  .__spep {
+    margin-top: 25px;
+  }
 
-    .__welin {
-        margin-top: 10px;
-    }
+  .__newnav .navbar-nav {
+    margin-left: 14% !important;
+  }
 
-    .__imghov {
-        width: 100%;
-    }
+  .__footdiv {
+    padding: 5% 4%;
+  }
 
-    .__welbg {
-        padding: 100px 0;
-    }
+  .__haccaption {
+    margin-top: 7%;
+  }
 
-    .__leadteams {
-        margin-left: 0;
-    }
+  .__optcard {
+    padding: 40px 30px;
+    height: 67vh;
+  }
 
-    /*Saucecode Alpha css*/
-    .__alphainputbtn {
-        margin-left: 417px;
-    }
+  .__optinp {
+    font-size: 16px;
+  }
 
-    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-        padding: 9px 40px;
-    }
+  .__howsau2 {
+    padding: 40px 9%;
+  }
 
-    .nav-tabs>li>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-        padding: 9px 40px;
-    }
+  .__newnav .__logoimg {
+    margin: 14px 6px 3px 140% !important;
+  }
 
-    .__map {
-        width: 100%;
-    }
+  .__allhr {
+    width: 25%;
+  }
 
-    .__saucereg {
-        padding: 25px 60px;
-    }
+  .__numhack1 {
+    font-size: 20px;
+  }
 
-    .__sauimg {
-       margin-left: 0;
-    }
+  .__numhack2 {
+    height: 145px;
+  }
 
+  .cust-arrow, .cust-arrow1 {
+    top: 83%;
+  }
 
-    /*Saucecode Alpha css end*/
+  .cust-arrow {
+    left: 8%;
+  }
 
+  .cust-arrow1 {
+    right: 8%;
+  }
+
+  .__discl1 {
+    font-size: 15px;
+  }
+
+  .__timline:before {
+    right: 11px;
+  }
+
+  
 
 }
 
@@ -169,16 +183,7 @@
 
 
 @media screen and (max-width: 992px){
-    .__findmore {
-        padding: 25px 0;
-    }
-
-    .__leadteam {
-        margin-left: 0px;
-    }
-
-    /*Saucecode Alpha css*/
-    /*Saucecode Alpha css end*/
+    
 }
 
 
@@ -188,136 +193,153 @@
 
 @media screen and (max-width: 800px){
 
-	.__gigs {
-        margin-top: 5%;
-    }
+	.__logoimg {
+    margin: 0;
+  }
 
-    .__findimg {
-        height: 30vh;
-    }
+  .__navlink {
+    padding: 10px 19px !important;
+    margin-top: 12px;
+  }
 
-    .__findimg p {
-        padding: 106px 0 0;
-    }
+  .__navlinkbtn1 {
+    margin: 17px 0 0 40px;
+  }
 
-    .__findmore {
-        padding: 25px 0;
-    }
+  .__sacaption {
+    font-size: 36px;
+  }
 
-    .__avafindp {
-        padding: 25px 35px;
-    }
+  .__countp {
+    font-size: 18px;
+  }
 
-    .__avafindp p:nth-child(1) {
-        font-size: 25px;
-    }
+  .list-container{
+    padding-left: 0px;
+  }
 
-    .__avafindp1 {
-        padding: 25px 35px;
-    }
+  .__count {
+    padding: 0 1em 0 0;
+  }
 
-    .__avafindp1 p:nth-child(1) {
-        font-size: 25px;
-    }
+  .__abs {
+    font-size: 20px;
+  }
 
-    .__avalatcardsup {
-        padding: 15px 15px 3px;
-    }
+  .__div {
+    height: 293px;
+    top: 48px;
+  }
 
-    .__navlogo {
-        margin-left: 1% !important;
-    }
+  .__spediv {
+    padding: 0 50px 59px;
+  }
 
-    .main-text h1 {
-        font-size: 27px;
-    }
+  .__spep {
+    font-size: 17px;
+    margin-top: 14px;
+  }
 
-    .__welbg {
-        padding: 50px 0;
-    }
+  .__newnav .navbar-nav {
+    margin-left: 17%;
+  }
 
-    .__hackimg div {
-        top: 79px;
-    }
+  .__haccaption {
+    font-size: 28px;
+    margin-top: 5%;
+  }
 
-    .__welin {
-        margin-top: 4%;
-    }
+  .__underlinehac:before {
+    top: 88px;
+  }
 
-    .__welin p:nth-child(1) {
-        font-size: 20px;
-    }
+  .__judgediv {
+    margin: -33px 0 0 10px;
+  }
 
-    .__welin p:nth-child(2) {
-        font-size: 12px;
-    }
+  .__judges {
+    font-size: 14px;
+  }
 
-    .__imgbg {
-        height: 100%;
-    }
+  .__judges1 {
+    font-size: 10px;
+  }
 
-    .__who {
-        margin-top: 0;
-    }
+  .__optcard {
+    padding: 40px 30px;
+    height: 70vh;
+  }
 
-    .__wwwbor {
-        padding: 30px 22px;
-    }
+  .__optinp {
+    font-size: 15px;
+  }
 
-    .__wwwborm {
-        padding: 30px 22px;
-    }
+  .__howsau2 {
+    padding: 40px 7%;
+  }
 
-    .__trophycard {
-        padding: 20px;
-        width: 100%;
-    }
+  .__footdiv img {
+    margin-bottom: 20px;
+  }
 
-    .__leadteam {
-        margin-left: 0;
-    }
+  .__newnav .__logoimg {
+    margin: 0px 6px 3px 48% !important;
+  }
 
-    .__leadteams {
-        margin-left: 0;
-    }
+  .__alldivbg {
+    padding: 18px 5% 5%;
+  }
 
-    /*Saucecode Alpha css*/
+  .__allhr {
+    width: 45%;
+  }
 
-    .__alphabg {
-         height: 82vh;
-    }
+  .__allcard {
+    padding: 30px 10px 5px;
+  }
 
-    .__alphahead p:nth-child(1) {
-        font-size: 30px;
-    }
-    .__alphamed {
-        width: 100%;
-        margin-top: 0;
-        position: unset;
-    }
+  .__numhack {
+    font-size: 40px;
+  }
 
-    .__alphainputbtn {
-        margin-left: 312px;
-    }
+  .__numhack1 {
+    font-size: 20px;
+  }
 
-    .__map {
-        width: 100%;
-    }
+  .__numhack2 {
+    height: 135px;
+  }
 
-    .__saucereg {
-        padding: 25px 30px;
-    }
+  .cust-arrow, .cust-arrow1 {
+    top: 74%;
+  }
 
-    .nav-tabs>li>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-        padding: 9px 60px;
-    }
+  .cust-arrow {
+    left: 4%;
+  }
 
-    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-        padding: 9px 60px;
-    }
-    /*Saucecode Alpha css end*/
+  .cust-arrow1 {
+    right: 4%;
+  }
 
-	
+  .__timp {
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
+  .__timp1 {
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  .__timline:before {
+    width: 15px;
+    height: 4px;
+    right: 8px;
+    top: 12px;
+  }
+  
+
 
 }
 
@@ -326,119 +348,8 @@
 ==================================================================*/
 
 @media screen and (max-width: 767px){
-    
 
-    .__newlandbg {
-        height: 100%;
-    }
 
-    .__avaseem {
-        margin-top: 6%;
-    }
-
-    .__avafindp {
-        margin-top: 6%;
-    }
-
-    .__avafindp1 {
-        border-left: none;
-        margin-top: 5%;
-    }
-
-    .__navbar-b {
-        background: #00010e;
-        position: unset;
-        top: 0;
-        width: 100%;
-        margin-bottom: 0;
-    }
-
-    .__navlogo {
-        display: none;
-    }
-
-    .__navlogom{
-      display: inline-block;
-    }
-
-     .main-text {
-        top: 6%;
-        position: unset;
-    color: #FFF;
-    background: #00010e;
-    width: 100%;
-    }
-
-    .main-text h1 {
-        font-size: 41px;
-    }
-
-    .__hackimg img {
-        width: 100%;
-    }
-
-    .__imgbg {
-        height: 100%;
-    }
-
-    .__welbg {
-        padding: 0px 50px;
-    }
-
-    .__wwwborm {
-        border-right: none;
-        border-left: none;
-        padding: 30px 55px;
-    }
-
-    .__leadteam {
-         margin-left: -203px;
-    }
-
-    .__teamv {
-        margin-top: 5%;
-    }
-
-    .__teamc {
-        margin-top: 10%;
-    }
-
-    .__leadteams {
-        margin-left: -194px;
-    }
-
-    .__hackleadimg {
-        margin-top: 5px;
-    }
-
-    .__teams {
-        margin-left: -47%;
-    }
-
-    /*Saucecode Alpha css*/
-
-    .__alphabg {
-        height: 82vh;
-    }
-
-    .__alphahead {
-        margin-top: 10%;
-    }
-
-    .__alpharow {
-        margin-top: 0;
-    }
-
-    .__alphainputbtn {
-        margin-left: 700px;
-    }
-
-    .navbar-toggle {
-        background-color: #272727;
-    }
-    /*Saucecode Alpha css end*/
-
-    
   
 }
 
@@ -448,232 +359,200 @@
 ==================================================================*/
 
 
-  @media screen and (max-width: 560px){
+@media screen and (max-width: 560px){
 
-    .navbar-toggle {
-        background-color: #272727;
-    }
+  .__logoimg {
+    margin: 0;
+  }
 
+  .__navlink {
+    padding: 10px 13px !important;
+    margin-top: 0px;
+  }
 
-    .__newlandbg {
-        height: 100%;
-    }
-  	
-    .__gigs {
-        margin-top: 5%;
-        font-size: 15px;
-    }
+  .__navlinkbtn1 {
+    padding: 5px 13px !important;
+   margin: 0;
+  }
 
-    .__acomm {
-        font-size: 10px;
-    }
-
-    .__saucbtn1 {
-        padding: 6px 12px;
-        font-size: 10px;
-    }
-
-    .__saucbtn2 {
-        padding: 6px 28px;
-        font-size: 10px;
-    }
-
-    .__findimg p {
-        padding: 99px 0 0;
-    }
-
-    .__avafindp {
-        padding: 11px 10px;
-        margin-top: 5%;
-    }
-
-    .__avafindp p:nth-child(1) {
-        font-size: 25px;
-    }
-
-    .__avafindp1 {
-        border-left: none;
-        padding: 11px 10px;
-        margin-top: 5%;
-    }
-
-    .__avafindp1 p:nth-child(1) {
-        font-size: 25px;
-    }
-
-    .__ffree {
-        font-size: 25px;
-    }
-
-    .__img {
-        height: 73vh;
-    }
-
-    .__navbar-b {
-        background: #00010e;
-        position: unset;
-        top: 0;
-        width: 100%;
-        margin-bottom: 0;
-    }
-
-    .__navlogo {
-        display: none;
-    }
-
-    .__navlogom{
-      display: inline-block;
-    }
-
-    .__carousel-indicators {
-        text-align: center;
-    }
-
-    .__carousel-indicators p {
-        text-align: center;
-    }
-
-    .main-text {
-        top: 6%;
-        position: unset;
-    color: #FFF;
-    background: #00010e;
-    width: 100%;
-    padding-top: 20px;
-    }
-
-    .main-text h1 {
-    font-size: 27px;
-    }
-
-    .__lrarrow {
-        width: 20px;
-    }
-
-    .__welin {
-        margin-top: 10%;
-    }
-
-    .__welbg {
-    padding: 0;
-    }
-
-    .__hackimg div {
-    top: 91px;
-    }
-
-    .__imgbg {
+  .__landbg{
     height: 100%;
-    }
+    padding-bottom: 15px;
+  }
 
-    .__wwwbor {
-    padding: 20px 0;
-    }
+  .__sacaption {
+    font-size: 24px;
+  }
 
-    .__who {
-        margin-top: 10px;
-    }
+  .__sacaption2 {
+    font-size: 12px;
+  }
 
-    .__wwwborm {
-    border-right: none;
-    border-left: none;
-    padding: 20px 0;
-    }
+  .__img {
+    height: 38vh;
+  }
 
-    .__imghov {
-    width: 100%;
-    }
+  .__div {
+    height: 159px;
+    top: 55px;
+  }
 
-    .__trophycard {
-    width: 100%;
-    }
+  .__abs {
+    font-size: 20px;
+  }
 
-    .__leadteam {
-        margin-left: 0;
-    }
+  .__abs1 {
+    font-size: 12px;
+  }
 
-    .__teamv {
-        font-size: 14px;
-        margin-top: 0;
-    }
+  .__sect1 {
+    font-size: 10px;
+  }
 
-    .__teamc {
-       font-size: 13px;
-    margin-top: 24px;
-    }
+  .__spediv {
+    padding: 0 20px 59px;
+  }
 
-    .__leadteams {
-        margin-left: 0;
-    }
+  .__speakerimg {
+    height: 25vh;
+    margin-top: 10px;
+  }
+
+  .__spep {
+    font-size: 15px;
+    margin-top: 13px;
+  }
+
+  .__spep1 {
+    font-size: 10px;
+  }
+
+  .__marabgin1 {
+    height: 208px;
+    margin-right: -24px;
+  }
+
+  .__underline:before {
+    width: 73%;
+  }
+
+  .__tropbg {
+    margin-top: 10px;
+  }
+
+  .__newnav .navbar-nav {
+    margin-left: 0% !important;
+  }
+
+  .__haclogo {
+    margin-top: -5%;
+  }
+
+  .__haccaption {
+    font-size: 25px;
+    margin-top: 5%;
+  }
+
+  .__underlinehac:before {
+    top: 110px;
+    width: 45%;
+  }
+
+  .__howsau1 {
+    padding: 20px 3%;
+  }
+
+  .__imgd {
+    height: 38vh;
+  }
+
+  .__optdiv {
+    padding: 30px 21px;
+  }
+
+  .__optcard {
+    padding: 30px 20px;
+    height: 100%;
+  }
+
+  .__howsau2 {
+    padding: 20px 4%;
+    margin-top: 10px;
+  }
+
+  .__footdiv img {
+    margin-bottom: 20px;
+  }
+
+  .__numhack1 {
+    font-size: 25px;
+  }
+
+  .__newnav .__logoimg {
+    margin: -5px 6px 3px 0 !important;
+  }
+
+  .__allp {
+    font-size: 20px;
+  }
+
+  .__allhr {
+    width: 53%;
+  }
+
+  .cust-arrow, .cust-arrow1 {
+    width: 35px;
+    height: 35px;
+    line-height: 28px;
+    top: 61%;
+    font-size: 20px;
+  }
+
+  .cust-arrow {
+    left: 4%;
+  }
+
+  .cust-arrow1 {
+    right: 4%;
+  }
+
+  .__gen {
+    font-size: 20px;
+  }
+
+  .__rul {
+    font-size: 12px;
+  }
+
+  .__discl1 {
+    font-size: 15px;
+  }
+
+  .__pline {
+    width: 40.8%;
+  }
+
+  .__timp {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .__timp1 {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  .__timline:before {
+    width: 10px;
+    height: 4px;
+    right: 0px;
+    top: 12px;
+  }
 
 
-    .__teams {
-        margin-left: 0;
-    }
-
-    .__autent {
-        padding: 50px 10px;
-    }
 
 
-    /*Saucecode Alpha css*/
-    .__alphabg {
-        height: 100%;
-    }
 
-    .__alphamed {
-        width: 100%;
-        position: unset;
-        margin-top: 11px;
-    }
-
-    .__alphainputbtn {
-        bottom: 2px;
-        margin-left: 252px;
-    }
-    .__alphahead {
-        margin-top: 0%;
-    }
-
-    .__alphahead p:nth-child(1) {
-        font-size: 26px;
-    }
-
-    .__alphamis p:nth-child(2) {
-        font-size: 25px;
-    }
-
-    .__alphamedimp1 {
-        border-right: none;
-    }
-
-    .__alphahow p:nth-child(2) {
-        font-size: 25px;
-    }
-
-    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-        padding: 9px 15px;
-    }
-
-    .nav-tabs>li>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-        padding: 9px 11px;
-    }
-
-    .__map {
-        width: 100%;
-        height: 100%;
-    }
-
-    .__saucereg {
-        padding: 16px 19px;
-    }
-
-    .__sauimg {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    /*Saucecode Alpha css end*/
 
 }
 

@@ -1,4 +1,12 @@
-// partner slider
+// dashboard show and hide
+    $('#openSidebar').click(function(){
+    $('.leftbar').addClass('biger');
+    });
+    $('#closebtn').click(function(){
+        $('.leftbar').removeClass('biger');
+    });
+
+   // partner slider
     $(document).ready(function(){
         $('.customer-logos').slick({
             slidesToShow: 6,
@@ -23,21 +31,37 @@
     });
     // partner slider end
 
-// typed writer
 
-    document.addEventListener('DOMContentLoaded', function(){
 
-        Typed.new("#typed", {
-            stringsElement: document.getElementById('typed-strings'),
-            typeSpeed: 20,
-            backDelay: 600,
-            backSpeed: 60,
-            loop: true,
-            contentType: 'html', // or text
-            // defaults to null for infinite loop
-            loopCount: null,
-           
+
+
+
+    // partner slider down slider
+    $(document).ready(function(){
+        $('.customer-logosd').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            prevArrow: $('.cust-prev'),
+            nextArrow: $('.cust-next'),
+            pauseOnHover: true,
+            responsive: [{
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 2
+                }
+            }, {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 1
+                }
+            }]
         });
-
     });
-
+    // partner slider end
